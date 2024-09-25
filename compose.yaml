@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: app-container
+    build: .
+    ports:
+      - 8080:80
+    depends_on:
+      - redis
+
+  redis:
+    container_name: redis-container
+    image: redis:7.4
+    ports:
+      - 6379:6379

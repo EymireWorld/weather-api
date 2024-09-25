@@ -1,0 +1,11 @@
+poetry.lock
+poetry.toml
+pyproject.toml
+.gitignore
+.dockerignore
+compose.yaml
+Dockerfile
+
+.git/
+.venv/
+__pycache__/
