@@ -10,6 +10,7 @@ git clone https://github.com/EymireWorld/weather-api.git
 ```
 2. Export requirements
 ```shell
+poetry install
 poetry export --output requirements.txt --without-hashes
 ```
 3. Start docker container
