@@ -15,7 +15,7 @@ async def lifespan(_: FastAPI):
     yield
 
 
-app = FastAPI(title='WeatherAPI', lifespan=lifespan)
+app = FastAPI(title='weather-api', lifespan=lifespan)
 app.include_router(api_router)
 
 
